@@ -1,0 +1,26 @@
+# Environment (se versiona solo .env.example)
+.env
+.env*.local
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Amplify
+amplify_outputs*
+.amplify/
+
+# Editors & OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Misc
+*.pem
+npm-debug.log*
